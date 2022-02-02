@@ -1,7 +1,7 @@
 table:
   name: app_user
   schema: public
-array_relationships:
+object_relationships:
 - name: tweets
   using:
     manual_configuration:
