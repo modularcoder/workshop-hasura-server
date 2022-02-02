@@ -2,7 +2,7 @@ table:
   name: tweet
   schema: public
 object_relationships:
-- name: tweetuser
+- name: user
   using:
     manual_configuration:
       column_mapping:
