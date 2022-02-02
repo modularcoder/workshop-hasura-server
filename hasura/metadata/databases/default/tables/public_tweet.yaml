@@ -1,13 +1,13 @@
 table:
-  name: app_user
+  name: tweet
   schema: public
-array_relationships:
-- name: user_tweet
+object_relationships:
+- name: tweetuser
   using:
     manual_configuration:
       column_mapping:
-        id: user_id
+        user_id: id
       insertion_order: null
       remote_table:
-        name: tweet
+        name: app_user
         schema: public

@@ -1,0 +1,1 @@
+INSERT INTO "public"."tweet"("id", "created_at", "updated_at", "user_id", "content") VALUES (2, E'2022-02-02T14:52:46.539288+00:00', E'2022-02-02T14:52:46.539288+00:00', E'ccc27691-4e25-466a-bb2c-90f616fe404c', E'Hello World');
